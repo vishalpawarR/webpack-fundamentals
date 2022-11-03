@@ -27,4 +27,16 @@ add script
   
   change branch
   git checkout feature/03-fem-debug-script --force
+
+  add script
+  "debugthis": "node --inspect --inspect-brk ./src/index.js"
+  
+  run: npm run debugthis
+
+  run this in chrome browser: brave://inspect or chrome://inspect
+
+Then click on the dedicated dev tools for node
+
+
+
   
